@@ -1,0 +1,281 @@
+@font-face {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  src:
+    url('../fonts/livvic-v11-latin-600.woff2') format('woff2'),
+    url('../fonts/livvic-v11-latin-600.woff') format('woff');
+}
+
+@font-face {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  src:
+    url('../fonts/livvic-v11-latin-700.woff2') format('woff2'),
+    url('../fonts/livvic-v11-latin-700.woff') format('woff');
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Livvic";
+
+}
+
+.header {
+  background-color: #014E56;
+}
+
+.container {
+  width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inner-next {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-link-img {
+  margin-right: 80px;
+  margin-top: 77px;
+  width: 159px;
+  height: 40px;
+}
+
+.navbar {
+  margin-top: 83px;
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+}
+
+.list-item~.list-item {
+  margin-left: 40px;
+}
+
+.link {
+  text-decoration: none;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.button-link {
+  text-decoration: none;
+  margin-top: 73px;
+  margin-bottom: 133px;
+}
+
+.button-link__text {
+  padding: 9px 33px 11px 32px;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 24px;
+}
+
+/* part  */
+.part {
+  background-color: #014E56;
+  padding-bottom: 120px;
+}
+
+.part-inner {
+  display: flex;
+}
+
+.part-inner-next {}
+
+.part-big-shrift {
+  margin-bottom: 16px;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 100px;
+  color: #FFFFFF;
+}
+
+.part-paragraph {
+  margin-bottom: 32px;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 48px;
+  color: #F67E7E;
+}
+
+.part-list {
+  list-style-type: none;
+}
+
+.part-list-item {
+  display: flex;
+}
+
+.part-list-item-img {
+  margin-bottom: 8px;
+}
+
+.part-text {
+  width: 445px;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+  margin-left: 23px;
+  margin-right: 32px;
+  margin-top: 20px;
+}
+
+.part-inner-continue {}
+
+.registration {}
+
+.text-write {
+  border-radius: 12px;
+  width: 540px;
+  border-bottom: 1px solid #FFFFFF;
+  background-color: #014E56;
+  display: block;
+  padding: 20px;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: -0.115385px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
+
+.send {
+  padding: 9px 32px 11px 32px;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #004047;
+  background-color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 24px;
+  margin-top: 24px;
+}
+
+/* part */
+/* footer  */
+.end {
+  background-color: #002529;
+}
+
+.footer-end {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-end-inner-div-img {
+  margin-top: 48px;
+}
+
+.footer-end-inner-list {
+  margin-right: 0;
+  margin-top: 25px;
+  margin-bottom: 55px;
+  display: flex;
+  list-style-type: none;
+}
+
+.footer-end-inner-list-item~.footer-end-inner-list-item {
+  margin-left: 40px;
+}
+
+.footer-end-inner-list-item-link {
+  text-decoration: none;
+}
+
+.footer-end-inner-list-item-link-p {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.other-footer-div {
+  margin-top: 48px;
+}
+
+.other-footer-list {
+  list-style-type: none;
+}
+
+.other-footer-p {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
+
+.finish-div {
+  margin-top: 48px;
+}
+
+.finish-div-ul {
+  margin-left: 170px;
+  list-style-type: none;
+  display: flex;
+}
+
+.finish-div-ul-li-item-img {
+  margin-bottom: 51px;
+  margin-right: 16px;
+  width: 24px;
+  height: 24px;
+}
+
+.finish-div-p {
+  font-family: Livvic;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: right;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}

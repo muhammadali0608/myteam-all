@@ -100,20 +100,14 @@ body {
 
 /* hero  */
 .hero {
-  background-image: url(../img/hero-img.svg);
+  background-image: url(../img/other-page.svg);
   background-repeat: no-repeat;
-  margin-top: 0;
+  background-position: right bottom;
   background-color: #014E56;
 }
 
 .hero__container {
   margin-top: 0;
-}
-
-.hero__box {
-  background-image: url(../img/otheer-bg-img.svg);
-  background-repeat: no-repeat;
-  background-position: 750px 350px;
 }
 
 .hero__box::before {
@@ -133,7 +127,7 @@ body {
 
 .box__big-shrift {
   width: 635px;
-  font-family: "Livvic";
+  font-family: Livvic;
   font-style: normal;
   font-weight: bold;
   font-size: 100px;
@@ -168,172 +162,173 @@ body {
   color: #FFFFFF;
 }
 
-
 /* section  */
-.section-box {
-  background-image: url(../img/section-img.svg);
-  background-repeat: no-repeat;
-  background-position: right bottom;
-  background-color: #012F34;
-}
-
-.box-next {
-  display: flex;
-
-}
-
-.inner-box {
-  display: flex;
-  margin-top: 198px;
-
-}
-
-.span-box {
-  background: transparent;
-  margin-top: -54px;
-  width: 50px;
-  height: 4px;
-  background-color: #F67E7E;
-  position: absolute;
-}
-
-.paragraph-section {
-  width: 445px;
-  font-family: "Livvic";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 48px;
-  line-height: 48px;
-  color: #FFFFFF;
-  margin-right: 132px;
-  margin-bottom: 342px;
-}
-
-.other-inner-box {
-  margin-top: 198px;
-
-}
-
-.different-list {
-  list-style-type: none;
-}
-
-.list-item-comfort {
-  display: flex;
-  margin-bottom: 32px;
-}
-
-.list-item-comfort-img {
-  margin-right: 23px;
-}
-
-.list-item-comfort-shrift {
-  width: 445px;
-  font-family: "Livvic";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 28px;
-  color: #F67E7E;
-}
-
-.list-item-comfort-text {
-  width: 445px;
-  font-family: "Livvic";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 15px;
-  line-height: 25px;
-  color: #FFFFFF;
-}
-
-
-/* part  */
 .part {
-  background-image: url(../img/part-other-bg-img.svg);
-  background-repeat: no-repeat;
-  background-position: right bottom;
   background-color: #004047;
-  padding-top: 140px;
+  background-image: url(../img/about-page-img.svg), url(../img/about-page-img-next.svg);
+  background-repeat: no-repeat;
+  background-position: left top, right bottom;
 }
 
-.part-box__part-box-shrift {
-  width: 932px;
-  color: #FFFFFF;
-  text-align: center;
+.container-inner-next {
+  padding-top: 154px;
+  padding-bottom: 114px;
+}
 
-  margin-left: 100px;
+.part__big-shrift {
+  margin-bottom: 64px;
+
   font-family: "Livvic";
   font-style: normal;
   font-weight: bold;
   font-size: 48px;
   line-height: 48px;
-}
-
-.small-part__small-part-list {
-  list-style-type: none;
-}
-
-.small-part-list {
-  display: flex;
-}
-
-.small-part-item {
-  background-image: url(../img/qoshtirnoq.svg);
-  background-repeat: no-repeat;
-  background-position: center 55px;
-  margin-left: 30px;
-}
-
-.small-part-item-text {
-  margin-top: 92px;
-  width: 350px;
   text-align: center;
-  font-family: "Livvic";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 15px;
-  line-height: 25px;
   color: #FFFFFF;
 }
 
-.small-part-item-p {
+.inner-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.inner-list-item {
+  background-color: #012F34;
   width: 350px;
-  margin-bottom: 2px;
+  margin-right: 30px;
+  margin-bottom: 76px;
+}
+
+.inner-list-item::after {
+  background-image: url(../img/plus.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  margin-left: 147px;
+  margin-bottom: -25px;
+  background-color: #F67E7E;
+  content: "";
+  display: block;
+}
+
+.inner-list-item:nth-child(3) {
+  margin-right: 0;
+}
+
+.inner-list-item:last-child {
+  margin-right: 0;
+}
+
+.inner-list-item-img {
+  margin-left: 127px;
+  margin-top: 32px;
+  margin-bottom: 16px;
+  width: 96px;
+  height: 96px;
+}
+
+.inner-list-item-image {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+
+}
+
+.inner-list-item-paragraph {
+  text-align: center;
+  align-items: center;
   font-family: "Livvic";
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 28px;
   color: #79C8C7;
-  text-align: center;
-  margin-top: 24px;
 }
 
-.small-part-item-mini-text {
+.inner-list-item-paragraph-other {
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 15px;
+  align-items: center;
   font-family: "Livvic";
-  width: 350px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  color: #79C8C7;
+}
+
+.inner-list-item-text {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
   text-align: center;
-  font-size: 13px;
-  line-height: 18px;
   color: #FFFFFF;
+  margin-bottom: 56px;
+}
+
+.inner-list-item-text-other {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
   text-align: center;
-  margin-bottom: 32px;
+  color: #FFFFFF;
+  margin-bottom: 30px;
 }
 
-.small-part-item__small-part-item-img {
-  width: 62px;
-  height: 62px;
-  margin-left: 140px;
+.inner-list-item-li {
+  margin-right: 16px;
 }
 
-.small-part-item-img {
-  width: 62px;
-  height: 62px;
-  border-radius: 50%;
-  margin-bottom: 151px;
+.inner-list-item-a-img {
+  margin-bottom: 53px;
+  width: 24px;
+  height: 19px;
 }
 
+/* part  */
+.peice {
+  background-color: #012F34;
+  background-image: url(../img/clients-bg.svg);
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.peice-inner {
+  padding-top: 140px;
+}
+
+.peice-inner-shrift {
+  font-family: Livvic;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 70px;
+}
+
+.peice-list {
+  list-style-type: none;
+  display: flex;
+}
+
+.peice-list-item {
+  width: 165px;
+  height: 28px;
+  left: 165px;
+  top: 1777px;
+  margin-right: 80px;
+  margin-bottom: 156px;
+}
 /* pack  */
 
 .pack {
@@ -463,39 +458,4 @@ body {
   color: #FFFFFF;
   mix-blend-mode: normal;
   opacity: 0.6;
-}
-@media only screen and (max-width: 683px) {
-  .box {
-    flex-direction: column;
-    font-size: 64px;
-    line-height: 56px;
-  }
-  .paragraph-section {
-    font-size: 32px;
-    line-height: 32px;
-  }
-  .box-next {
-    flex-direction: column;
-  }
-  .inner-box {
-    flex-direction: column;
-  }
-  .list-item-comfort {
-    width: 523px;
-  }
-  .different-list {
-    margin-top: 64px;
-  }
-  .part-box-shrift {
-    margin-left: 0;
-    font-size: 32px;
-    line-height: 32px;
-  }
-  .part__part-box {
-    flex-direction: column;
-  }
-  .small-part-list {
-    flex-direction: column;
-  }
-
 }
